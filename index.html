@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
+    <button id="reset" style="margin-bottom: 10px;" onclick="generateGrid(16)">Reset Grid</button>
+    
     <div class="grid-container">
         
     </div>
     
-    <form style="margin-top: 10px;">
+    <form style="margin: 10px 0;">
         <label for="input-gridSize">Enter grid size(max: 100)</label>
         <input type="number" max="100" id="input-gridSize">
         <button id="input-btn">Apply</button>
